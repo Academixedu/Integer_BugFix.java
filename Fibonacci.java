@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Bug2{
+public class Fibonacci{
 
 public void scan() {
 	int a,b,c,d;	
@@ -21,7 +21,7 @@ b=c;
 }	
   // Fix the Bug Issues and Erros and Solve Them
 	public static void main(String[] args) {
-		Bug2 f=new Bug2();
+		Fibonacci f=new Fibonacci();
 f.scan();		
 
 
