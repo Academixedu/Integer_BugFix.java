@@ -13,7 +13,7 @@ public void scan() {
 	System.out.println("Second Number"+b);
 for(int e=0;e<d;e++) {
 d=a+b;
-System.out.print(c+",");
+System.out.print(d+",");
 c=b;
 a=c;
 }
