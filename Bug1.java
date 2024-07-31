@@ -15,6 +15,6 @@ public static void main(String[] args) {
 	if(temp==a) {
 		System.out.println("Perfect Number"+temp);
 	}
-// Fix the Bug and Print Perfect Number or Not
+// Fix the Bug and Print Perfect Number or Notkh
 }
 }
