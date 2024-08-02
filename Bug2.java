@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Bug2{
 public class Fibonacci {
 public void scan() {
@@ -12,7 +14,7 @@ public void scan() {
 	System.out.println("First Number"+a);
 	System.out.println("Second Number"+b);
 for(int e=0;e<d;e++) {
-d=a+b;
+c=a+b;
 System.out.print(c+",");
 c=b;
 a=c;
@@ -24,5 +26,6 @@ a=c;
 f.scan();		
 
 
+}
 }
 }
