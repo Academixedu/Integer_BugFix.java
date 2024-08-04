@@ -14,10 +14,8 @@ public static void main(String[] args) {
 	if(temp==a) {
 	System.out.println("Perfect Number: "+a);
 	}
-	else{
-		System.out.println("Not a perfect number: "+a);
-	}
 }
 // Fix the Bug and Print Perfect Number or Not
 }
 }
+
