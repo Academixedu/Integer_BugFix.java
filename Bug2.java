@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class Bug2{
-public class Fibonacci {
+public static class Fibonacci {
 public void scan() {
 	int a,b,c,d;	
 	Scanner in=new Scanner(System.in);
@@ -11,18 +13,24 @@ public void scan() {
 	d=in.nextInt();
 	System.out.println("First Number"+a);
 	System.out.println("Second Number"+b);
-for(int e=0;e<d;e++) {
-d=a+b;
-System.out.print(c+",");
-c=b;
-a=c;
+	
+
+	for(int e=0;e<d;e++) {
+		c=a+b;
+		System.out.print(c+",");
+		a=b;
+		b=c;
+	}
 }
-}	
+
+}
+	
+
   // Fix the Bug Issues and Erros and Solve Them
 	public static void main(String[] args) {
 		Fibonacci f=new Fibonacci();
-f.scan();		
-
-
+		f.scan();		
 }
 }
+
+
