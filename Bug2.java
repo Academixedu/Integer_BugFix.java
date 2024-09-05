@@ -23,8 +23,10 @@ public class Bug2 {
                 a = b;  
                 b = c;  
             }
-            System.out.println(); 
+            System.out.println();
+			in.close(); 
         }
+		
     }
 
     public static void main(String[] args) {
