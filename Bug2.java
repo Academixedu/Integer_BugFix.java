@@ -1,28 +1,30 @@
+import java.util.Scanner;
+
 public class Bug2{
-public class Fibonacci {
-public void scan() {
-	int a,b,c,d;	
-	Scanner in=new Scanner(System.in);
-	System.out.println("Give Your Number");
-	a=in.nextInt();
-	System.out.println("Give Sequential Number");
-	b=in.nextInt();
-	System.out.println("Give Your Count");
-	d=in.nextInt();
-	System.out.println("First Number"+a);
-	System.out.println("Second Number"+b);
-for(int e=0;e<d;e++) {
-d=a+b;
-System.out.print(c+",");
-c=b;
-a=c;
-}
-}	
-  // Fix the Bug Issues and Erros and Solve Them
+	public class Fibonacci {
+		public void scan() {
+			int a,b,c,d;	
+			Scanner in=new Scanner(System.in);
+			System.out.println("Give Your Number");
+			a=in.nextInt();
+			System.out.println("Give Sequential Number");
+			b=in.nextInt();
+			System.out.println("Give Your Count");
+			d=in.nextInt();
+			System.out.println("First Number"+a);
+			System.out.println("Second Number"+b);
+			for(int e=0;e<d;e++) {
+				c=a+b;
+				System.out.print(c+",");
+				a=b;
+				b=c;
+			}
+		}	
+	}
 	public static void main(String[] args) {
-		Fibonacci f=new Fibonacci();
-f.scan();		
-
-
+		Bug2 bg= new Bug2();
+		Fibonacci f=bg.new Fibonacci();
+		f.scan();		
+	}
 }
-}
+
